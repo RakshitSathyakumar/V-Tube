@@ -12,6 +12,9 @@ export const ColorModeSwitcher = props => {
       size="md"
       fontSize="lg"
       aria-label={`Switch to ${text} mode`}
+      pos={'fixed'}
+      top={'3'}
+      right={'3'}
       variant="ghost"
       color="current"
       marginLeft="2"
@@ -21,3 +24,5 @@ export const ColorModeSwitcher = props => {
     />
   );
 };
+
+export default ColorModeSwitcher
