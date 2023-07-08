@@ -41,7 +41,7 @@ const Home = () => {
           alignItems={'center'}
           direction={['column', 'row']}
         >
-          <Image src={img5} h={['40', '400']} filter={'hue-rotate(55deg)'} />
+          <Image src={img5} h={['40', '400']} filter={'hue-rotate(155deg)'} />
 
           <Text
             letterSpacing={'widest'}
@@ -84,18 +84,18 @@ const MyCarousel = () => {
       showStatus={false}
     >
       <Box w="full" h={'100vh'}>
+        <Image src={imgSt} h="full" w={'full'} objectFit={'cover'} />
+        <Heading bgColor={'blackAlpha.50'} color={'white'} {...headingOptions}>
+          Watch your Favoutite sitcom!
+        </Heading>
+      </Box>
+      <Box w="full" h={'100vh'}>
         <Image src={imgF} h="full" w={'full'} objectFit={'cover'} />
         <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions}>
           Watch your Favoutite Friends!
         </Heading>
       </Box>
 
-      <Box w="full" h={'100vh'}>
-        <Image src={imgSt} h="full" w={'full'} objectFit={'cover'} />
-        <Heading bgColor={'blackAlpha.50'} color={'white'} {...headingOptions}>
-          Watch your Favoutite sitcom!
-        </Heading>
-      </Box>
 
       <Box w="full" h={'100vh'}>
         <Image src={img1} h="full" w={'full'} objectFit={'cover'} />
