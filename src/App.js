@@ -18,7 +18,7 @@ function App() {
         <Route path="/videos" element={<Videos />} />
         <Route path="/upload" element={<Upload />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<SignUp />} />
+        <Route path="/sign-up" element={<SignUp />} />
         <Route path="/premium" element={<Premium />} />
 
       </Routes>

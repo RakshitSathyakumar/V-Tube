@@ -46,7 +46,7 @@ import {
             <Text textAlign={'right'}>
               New User {' '}
               <Button variant={'link'} colorScheme={'purple'}>
-                <Link to={'/signup'}>Click here</Link>
+                <Link to={'/sign-up'}>Click here</Link>
               </Button>
             </Text>
           </VStack>
